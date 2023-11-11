@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url(images/bg.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.Menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo {
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 115px; /* Ajusta este valor según tus preferencias */
+}
+
+.Menu .Navbar ul li {
+    position: relative;
+    float: left;
+    margin-right: 57.5px; /* Ajusta este valor según tus preferencias */
+}
+
+
+.Menu .Navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.Menu .Navbar ul li a:hover{
+    color: #ce967b;
+
+}
+
+
+#Menu {
+    display: none;
+
+}
+.Menu-icono {
+    width: 25px;
+}
+
+.Menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+    margin-bottom: 70px; /* Puedes ajustar este valor según sea necesario */
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 80px; /* Agrega un margen superior de 20px */
+
+}
+
+.header-content p {
+    font-size: 12px;
+    color: #c5c5c5;
+    padding: 0 160px;
+    margin-bottom: 12px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-top: 20px; /* Agrega un margen superior de 20px */
+}
+
+.btn-1:hover {
+    background-color: #ebad8d;
+}
+
+
+.Coffe {
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.Coffe-Content {
+    text-align: center;
+}
+
+.Coffe-Content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-Parrafo {
+    font-size: 12px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+
+.Coffe-Group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.Coffe-1, .Coffe-2 {
+    text-align: center;
+    max-width: 300px; /* O ajusta según tus necesidades */
+    margin: 0 10px; /* Añadido margen entre las secciones */
+}
+
+.Coffe-1 img, .Coffe-2 img {
+    width: 200px;
+    display: block; /* Esto evita el espacio extra debajo de la imagen */
+    margin: 0 auto; /* Esto centra la imagen */
+    margin-bottom: 15px;
+}
+
+.Coffe-1 h3, .Coffe-2 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.Coffe-1 p, .Coffe-2 p {
+    color: #323337;
+    font-size: 12px;
+}
+.coffe-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Services {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(images/bg2.jpg);
+        background-position:center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+}
+
+
+.Services-Content {
+    text-align: center;
+}
+
+.Services-Content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.Services-Content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+    text-align: center;
+}
+
+.Services-Group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Services-1 {
+    padding: 0 100px;
+}
+
+.Services-1 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.Services-1 h3 {
+    color: #eaccb3;
+    font-size: 18px;
+}
+
+.General {
+    display: flex;
+}
+
+.General-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #e1e2e6;
+}
+
+.General-2 {
+    background-image: url(images/coffe-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.General-3 {
+    background-image: url(images/coffee-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+
+.Blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.Blog-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Blog-1,
+.Blog-2,
+.Blog-3 {
+    width: 30%;
+    text-align: center;
+}
+
+.Blog-1 img,
+.Blog-2 img,
+.Blog-3 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.Blog-1 h3,
+.Blog-2 h3,
+.Blog-3 h3 {
+    font-size: 25px;
+    color: #323337;
+}
+
+.Imagen {
+    width: 170px;
+    height: 170px;
+}
+
+.ir-arriba {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ir-arriba.show {
+    display: block;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 991px) {
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .Navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .Navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .Navbar {
+        display: block;
+    }
+
+    .Header {
+        min-height: 0;
+    }
+
+    .Header-content {
+        padding: 100px 30px;
+    }
+
+    .Header-content p {
+        padding: 0;
+    }
+}
+
+.instagram-link {
+    list-style: none;
+}
+
+.instagram-link a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.instagram-logo {
+    width: 24px; /* Ajusta el ancho según tus necesidades */
+    height: 24px; /* Ajusta la altura según tus necesidades */
+    fill: #ff0000; /* Cambia el color de relleno según tus necesidades */
+    margin-left: 5px; /* Ajusta el espacio entre el texto y el logo según tus necesidades */
+}
+
+.twitter-text {
+    color: #ffffff; /* Cambia el color del texto según tus necesidades */
+    margin-right: 5px; /* Ajusta el espacio entre el texto y el logo según tus necesidades */
+}
+
+.twitter-link {
+    list-style: none;
+}
+
+.twitter-link a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.twitter-logo {
+    width: 24px; /* Ajusta el ancho según tus necesidades */
+    height: 24px; /* Ajusta la altura según tus necesidades */
+    fill: #ff0000; /* Cambia el color de relleno según tus necesidades */
+    margin-left: 5px; /* Ajusta el espacio entre el texto y el logo según tus necesidades */
+}
+
+.twitter-text {
+    color: #ffffff; /* Cambia el color del texto según tus necesidades */
+    margin-right: 5px; /* Ajusta el espacio entre el texto y el logo según tus necesidades */
+}
+
+
+.linkedin-link {
+    list-style: none;
+}
+
+.linkedin-link a {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.linkedin-logo {
+    width: 24px; /* Ajusta el ancho según tus necesidades */
+    height: 24px; /* Ajusta la altura según tus necesidades */
+    fill: #0077b5; /* Cambia el color de relleno según tus necesidades */
+    margin-left: 5px; /* Ajusta el espacio entre el texto y el logo según tus necesidades */
+}
+
+.linkedin-text {
+    color: #ffffff; /* Cambia el color del texto según tus necesidades */
+    margin-right: 5px; /* Ajusta el espacio entre el texto y el logo según tus necesidades */
+}
+
+
+.github-link {
+    list-style: none;
+}
+
+.github-link a {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.github-logo {
+    width: 24px; /* Ajusta el ancho según tus necesidades */
+    height: 24px; /* Ajusta la altura según tus necesidades */
+    fill: #ffffff; /* Cambia el color de relleno según tus necesidades */
+    margin-left: 5px; /* Ajusta el espacio entre el texto y el logo según tus necesidades */
+}
+
+.github-text {
+    color: #ffffff; /* Cambia el color del texto según tus necesidades */
+    margin-right: 5px; /* Ajusta el espacio entre el texto y el logo según tus necesidades */
+}
+
+
